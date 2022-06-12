@@ -1,6 +1,6 @@
-FROM alpine:3.14
+FROM alpine:3.16
 
-ARG VERSION=v7.2.1
+ARG VERSION=v7.3.0
 ARG FILENAME=oauth2-proxy-${VERSION}.linux-amd64
 
 RUN addgroup appgroup && adduser --disabled-password --no-create-home appuser -G appgroup
